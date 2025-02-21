@@ -21,9 +21,12 @@ def TheMath():
         print (f"The mounth is {month} Your salary for this mounth is {salary} $\n ")
         print (f"Percentage of Saving is {saving} % , Which equals {savingamount} $\n")
         print (f"The rent will cost you {rent} $ , Which is {round((100*rent/salary),2)} % of your salary \n")
-        print (f"The electricity will cost you {electricity} $ , Which is {round((100*electricity/salary),2)} % of your salary")
+        print (f"The electricity will cost you {electricity} $ , Which is {round((100*electricity/salary),2)} % of your salary\n")
         print (f'The total amount you spends equals to {x1} $ , thus you have now {salary-x1} $')
         print ("**************************************************")
+        print (f"your emestimate yearly rent and electricity costs equals to {(x1-x)*12} $.\n")
+        print (f"Salary will not see Nabiha {(salary**2)} $\n")
+        
 
 
 month = input("Enter the full name of the month you storing for : ")
