@@ -26,7 +26,7 @@ def TheMath():
         print ("**************************************************")
         print (f"your emestimate yearly rent and electricity costs equals to {(x1-x)*12} $.\n")
         print (f"Salary will not see Nabiha {(salary**2)} $\n")
-        
+
 
 
 month = input("Enter the full name of the month you storing for : ")
@@ -37,4 +37,7 @@ rent = int(input("Input the cost of rent for this mounth : "))
 electricity = int(input("Input the cost of electricity for this mounth : "))
 
 initCalculator()
+TheMath()
+print(f"With the additional 50 $")
+salary = salary + 50
 TheMath()
