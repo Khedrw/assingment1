@@ -22,6 +22,7 @@ def TheMath():
         print (f"Percentage of Saving is {saving} % , Which equals {savingamount} $\n")
         print (f"The rent will cost you {rent} $ , Which is {round((100*rent/salary),2)} % of your salary \n")
         print (f"The electricity will cost you {electricity} $ , Which is {round((100*electricity/salary),2)} % of your salary")
+        print (f'The total amount you spends equals to {x1} $ , thus you have now {salary-x1} $')
         print ("**************************************************")
 
 
