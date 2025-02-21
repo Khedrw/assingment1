@@ -40,4 +40,5 @@ initCalculator()
 TheMath()
 print(f"With the additional 50 $")
 salary = salary + 50
+initCalculator()
 TheMath()
